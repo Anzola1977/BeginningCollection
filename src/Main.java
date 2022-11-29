@@ -20,9 +20,10 @@ public class Main {
         } catch (MalformedURLException e) {
             try {
                 inputStream = new FileInputStream("config.txt");
-                //Reader configReader = InputStreamReader(inputStream, StandardCharsets.UTF_8)
-                for (byte b:inputStream.readAllBytes()) {
-                    System.out.print((char)b);
+                Reader configReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
+                int c;
+                while ((c = configReader.read()) != -1) {
+                    System.out.print((char)c);
                 }
             } catch (FileNotFoundException ex) {
                 ex.printStackTrace();
