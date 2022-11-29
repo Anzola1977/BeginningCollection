@@ -1,3 +1,4 @@
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
@@ -12,9 +13,10 @@ public class Main {
         try {
             URL url = new URL(str);
             InputStream inputStream = url.openStream();
+            FileOutputStream fileOutputStream = new FileOutputStream("people.json");
 
             for (byte b : inputStream.readAllBytes()){
-                System.out.print((char)b);
+                fileOutputStream.write(b);
             }
         } catch (MalformedURLException e) {
             System.out.println("Incorrect URL");
