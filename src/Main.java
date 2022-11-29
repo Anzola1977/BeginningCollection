@@ -13,15 +13,13 @@ public class Main {
             URL url = new URL(str);
             InputStream inputStream = url.openStream();
 
-            byte[] buffer = new byte[1024];
-            while (inputStream.read(buffer) > 0){
-                System.out.print(Arrays.toString(buffer));
+            for (byte b : inputStream.readAllBytes()){
+                System.out.print((char)b);
             }
         } catch (MalformedURLException e) {
             System.out.println("Incorrect URL");
         } catch (IOException e) {
             System.out.println("Unable connect to URL");
         }
-
     }
 }
