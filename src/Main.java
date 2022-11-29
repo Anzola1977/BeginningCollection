@@ -15,9 +15,9 @@ public class Main {
             InputStream inputStream = url.openStream();
             FileOutputStream fileOutputStream = new FileOutputStream("people.json");
 
-            for (byte b : inputStream.readAllBytes()){
-                fileOutputStream.write(b);
-            }
+            //for (byte b : inputStream.readAllBytes()){
+                fileOutputStream.write(inputStream.readAllBytes());
+
         } catch (MalformedURLException e) {
             System.out.println("Incorrect URL");
         } catch (IOException e) {

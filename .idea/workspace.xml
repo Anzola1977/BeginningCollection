@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23aeb32f-b275-4139-8e19-a81f10c793a9" name="Changes" comment="Commit read URL with readAllBytes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="23aeb32f-b275-4139-8e19-a81f10c793a9" name="Changes" comment="Commit read URL with write info">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669723433297</updated>
-      <workItem from="1669723434490" duration="4359000" />
+      <workItem from="1669723434490" duration="4685000" />
     </task>
     <task id="LOCAL-00001" summary="Commit read URL">
       <created>1669727875146</created>
@@ -72,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669729324503</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit read URL with write info">
+      <created>1669731251690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669731251690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +99,7 @@
     <MESSAGE value="Commit read URL" />
     <MESSAGE value="Commit read URL with buffer" />
     <MESSAGE value="Commit read URL with readAllBytes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit read URL with readAllBytes" />
+    <MESSAGE value="Commit read URL with write info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit read URL with write info" />
   </component>
 </project>
