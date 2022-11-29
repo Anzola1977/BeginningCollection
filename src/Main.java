@@ -2,10 +2,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Arrays;
 
 public class Main {
-
-    static String str;
 
     public static void main(String[] args) {
 
@@ -14,10 +13,9 @@ public class Main {
             URL url = new URL(str);
             InputStream inputStream = url.openStream();
 
-            int i;
-            //byte[] buffer = new byte[1024];
-            while ((i = inputStream.read()) != -1){
-                System.out.print((char) i);
+            byte[] buffer = new byte[1024];
+            while (inputStream.read(buffer) > 0){
+                System.out.print(Arrays.toString(buffer));
             }
         } catch (MalformedURLException e) {
             System.out.println("Incorrect URL");
