@@ -9,6 +9,7 @@ public class Main {
 
         String str = "https";
         InputStream inputStream;
+        Reader configReader = null;
         try {
             URL url = new URL(str);
             inputStream = url.openStream();
@@ -20,7 +21,7 @@ public class Main {
         } catch (MalformedURLException e) {
             try {
                 inputStream = new FileInputStream("config.txt");
-                Reader configReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
+                configReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
                 int c;
                 while ((c = configReader.read()) != -1) {
                     System.out.print((char)c);
@@ -29,6 +30,12 @@ public class Main {
                 ex.printStackTrace();
             } catch (IOException ex) {
                 ex.printStackTrace();
+            } finally {
+                try {
+                    configReader.close();
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
             }
         } catch (IOException e) {
             System.out.println("Unable connect to URL");
