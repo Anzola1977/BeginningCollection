@@ -12,6 +12,7 @@ public class auto {
         auto.add("Audi");
         auto.add("Mercedes");
         auto.add("Porsche");
+        auto.add("Mercedes");
 //        Iterator<String> iterator = auto.iterator();
 //        while (iterator.hasNext()) {
 //            String car = iterator.next();
@@ -40,21 +41,33 @@ public class auto {
 //        System.out.println(room);
 //        System.out.println(room.size());
 
-        Queue<String> location = new ArrayDeque<>();
+        Deque<String> location = new ArrayDeque<>();
         location.add("Miami");
         location.add("Los Angeles");
         location.add("Dallas");
+        System.out.println(location.pop());
         location.add("Honolulu");
+        location.add("Mexico");
+        location.add("Barbados");
+        location.add("Las Vegas");
+        location.add("Leipzig");
         location.add("Hawaii");
 //        System.out.println(location.remove());
 //        System.out.println(location);
 //        System.out.println(location.poll());
 //        System.out.println(location);
-//        System.out.println(location.offer("Berlin"));
-//        System.out.println(location);
+       location.push("Berlin");
+       location.offer("Hamburg");
+        System.out.println(location);
 //        System.out.println(location.peek());
 //        System.out.println(location.element());
 //        System.out.println(location);
+
+        System.out.println(location.poll());
+        System.out.println(location);
+        System.out.println(location.remove());
+        System.out.println(location);
+
 
         Map<String, Integer> income = new HashMap<>();
         income.put("Segal", 2300);
@@ -62,10 +75,10 @@ public class auto {
         income.put("Miller", 3300);
         income.put("Smith", 3900);
         income.put("Morgan", 4600);
-        System.out.println(income.containsKey("Morgan"));
-        System.out.println(income.get("Smith"));
-        System.out.println(income.remove("Miller"));
-        System.out.println(income.keySet());
-        System.out.println(income.values());
+//        System.out.println(income.containsKey("Morgan"));
+//        System.out.println(income.get("Smith"));
+//        System.out.println(income.remove("Miller"));
+//        System.out.println(income.keySet());
+//        System.out.println(income.values());
     }
 }
