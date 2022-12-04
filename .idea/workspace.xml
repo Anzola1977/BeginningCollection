@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23aeb32f-b275-4139-8e19-a81f10c793a9" name="Changes" comment="Commit with collection (beginning)">
+    <list default="true" id="23aeb32f-b275-4139-8e19-a81f10c793a9" name="Changes" comment="Commit with collection (continue)">
+      <change afterPath="$PROJECT_DIR$/src/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auto.java" afterDir="false" />
     </list>
@@ -59,7 +60,9 @@
       <workItem from="1669723434490" duration="10330000" />
       <workItem from="1669912762444" duration="1740000" />
       <workItem from="1669959477485" duration="10570000" />
-      <workItem from="1670071788160" duration="6240000" />
+      <workItem from="1670071788160" duration="7609000" />
+      <workItem from="1670082730761" duration="111000" />
+      <workItem from="1670159701198" duration="6859000" />
     </task>
     <task id="LOCAL-00001" summary="Commit read URL">
       <created>1669727875146</created>
@@ -117,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669996720902</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit with collection (continue)">
+      <created>1670081369542</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670081369542</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +153,7 @@
     <MESSAGE value="Commit read URL with write info3" />
     <MESSAGE value="Commit read URL with write info (with russian text)" />
     <MESSAGE value="Commit with collection (beginning)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit with collection (beginning)" />
+    <MESSAGE value="Commit with collection (continue)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit with collection (continue)" />
   </component>
 </project>

@@ -1,3 +1,4 @@
+import java.security.Key;
 import java.util.*;
 
 public class auto {
@@ -13,14 +14,21 @@ public class auto {
         auto.add("Mercedes");
         auto.add("Porsche");
         auto.add("Mercedes");
-//        Iterator<String> iterator = auto.iterator();
-//        while (iterator.hasNext()) {
-//            String car = iterator.next();
-//            if (car.equals("Fiat")) {
-//                iterator.remove();
-//            }
+//        for (String car : auto) {
+//            //            if (car.equals("Fiat")) {
+////                iterator.remove();
+//            System.out.println(car);
+////            }
 //        }
-        auto.removeIf(car -> car.equals("Fiat"));
+//
+//        Iterator<String> iterator = auto.iterator();
+//        while (iterator.hasNext()){
+//            String car = iterator.next();
+//            System.out.println(car);
+//        }
+
+
+//        System.out.println(auto.removeIf(car -> car.equals("Fiat")));
         //System.out.println(auto);
         auto.add(2, "Tesla");
 //        System.out.println(auto);
@@ -29,6 +37,9 @@ public class auto {
 //        System.out.println(auto.remove("VW"));
 //        System.out.println(auto.set(4, "Saab"));
 //        System.out.println(auto);
+//        for (int i = 0; i <= auto.size(); i++) {
+//            System.out.println(i);
+        //}
 
         Set<Integer> room = new HashSet<>();
         room.add(24);
@@ -38,14 +49,25 @@ public class auto {
         room.add(4);
         room.add(14);
         room.add(74);
-//        System.out.println(room);
-//        System.out.println(room.size());
+        for (Integer chamber : room) {
+            System.out.println(chamber);
+//            if (chamber == 26){
+//                iterator1.remove();
+        }
 
-        Deque<String> location = new ArrayDeque<>();
+
+//        for (int i = 0; i < room.size(); i++) {
+//            System.out.println(i);
+//        }
+//        System.out.println(room);
+//
+        City city = new City("Tokyo");
+        Deque<Object> location = new ArrayDeque<>();
+        location.add(city.getName());
         location.add("Miami");
         location.add("Los Angeles");
         location.add("Dallas");
-        System.out.println(location.pop());
+        //System.out.println(location.pop());
         location.add("Honolulu");
         location.add("Mexico");
         location.add("Barbados");
@@ -58,15 +80,27 @@ public class auto {
 //        System.out.println(location);
        location.push("Berlin");
        location.offer("Hamburg");
-        System.out.println(location);
+        //System.out.println(location);
 //        System.out.println(location.peek());
 //        System.out.println(location.element());
 //        System.out.println(location);
+//        for (int i = 0; i <= location.size(); i++) {
+//            System.out.println("New destination: " + i);
+//        }
+        Iterator<Object> place = location.iterator();
+        while (place.hasNext()){
+            Object nation = place.next();
+            System.out.println(nation);
+        }
 
-        System.out.println(location.poll());
-        System.out.println(location);
-        System.out.println(location.remove());
-        System.out.println(location);
+       for (Object nation : location){
+           System.out.println(nation);
+       }
+
+//        System.out.println(location.poll());
+//        System.out.println(location);
+//        System.out.println(location.remove());
+//        System.out.println(location);
 
 
         Map<String, Integer> income = new HashMap<>();
@@ -75,6 +109,14 @@ public class auto {
         income.put("Miller", 3300);
         income.put("Smith", 3900);
         income.put("Morgan", 4600);
+
+//        income.
+//        for (String K : income) {
+//            System.out.println(K);
+//        }
+//        for (int i = 0; i <= income.size(); i++) {
+
+//        }
 //        System.out.println(income.containsKey("Morgan"));
 //        System.out.println(income.get("Smith"));
 //        System.out.println(income.remove("Miller"));
