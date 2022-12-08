@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23aeb32f-b275-4139-8e19-a81f10c793a9" name="Changes" comment="Commit with collection (continue)">
-      <change afterPath="$PROJECT_DIR$/src/City.java" afterDir="false" />
+    <list default="true" id="23aeb32f-b275-4139-8e19-a81f10c793a9" name="Changes" comment="Commit with collection and iteration">
+      <change afterPath="$PROJECT_DIR$/src/ExampleWildcard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,9 @@
       <workItem from="1669959477485" duration="10570000" />
       <workItem from="1670071788160" duration="7609000" />
       <workItem from="1670082730761" duration="111000" />
-      <workItem from="1670159701198" duration="6859000" />
+      <workItem from="1670159701198" duration="8149000" />
+      <workItem from="1670419673393" duration="4369000" />
+      <workItem from="1670501639476" duration="2546000" />
     </task>
     <task id="LOCAL-00001" summary="Commit read URL">
       <created>1669727875146</created>
@@ -127,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670081369542</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit with collection and iteration">
+      <created>1670170220592</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670170220592</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +164,7 @@
     <MESSAGE value="Commit read URL with write info (with russian text)" />
     <MESSAGE value="Commit with collection (beginning)" />
     <MESSAGE value="Commit with collection (continue)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit with collection (continue)" />
+    <MESSAGE value="Commit with collection and iteration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit with collection and iteration" />
   </component>
 </project>

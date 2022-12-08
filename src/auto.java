@@ -49,11 +49,11 @@ public class auto {
         room.add(4);
         room.add(14);
         room.add(74);
-        for (Integer chamber : room) {
-            System.out.println(chamber);
+        //for (Integer chamber : room) {
+            //System.out.println(chamber);
 //            if (chamber == 26){
 //                iterator1.remove();
-        }
+        //}
 
 
 //        for (int i = 0; i < room.size(); i++) {
@@ -61,7 +61,7 @@ public class auto {
 //        }
 //        System.out.println(room);
 //
-        City city = new City("Tokyo");
+        City<String> city = new City<>("Tokyo");
         Deque<Object> location = new ArrayDeque<>();
         location.add(city.getName());
         location.add("Miami");
@@ -80,6 +80,15 @@ public class auto {
 //        System.out.println(location);
        location.push("Berlin");
        location.offer("Hamburg");
+        System.out.println(location.poll());//queue
+        System.out.println(location);
+        System.out.println(location.pop());//deque
+        System.out.println(location);
+        System.out.println(location.remove());//queue
+        location.push(4);
+        System.out.println(location);
+
+
         //System.out.println(location);
 //        System.out.println(location.peek());
 //        System.out.println(location.element());
@@ -87,15 +96,15 @@ public class auto {
 //        for (int i = 0; i <= location.size(); i++) {
 //            System.out.println("New destination: " + i);
 //        }
-        Iterator<Object> place = location.iterator();
-        while (place.hasNext()){
-            Object nation = place.next();
-            System.out.println(nation);
-        }
-
-       for (Object nation : location){
-           System.out.println(nation);
-       }
+//        Iterator<Object> place = location.iterator();
+//        while (place.hasNext()){
+//            Object nation = place.next();
+//            System.out.println(nation);
+//        }
+//
+//       for (Object nation : location){
+//           System.out.println(nation);
+//       }
 
 //        System.out.println(location.poll());
 //        System.out.println(location);

@@ -1,4 +1,4 @@
-public class City {
+public class City <String>{
     private String name;
 
     public City(String name) {
@@ -12,4 +12,5 @@ public class City {
     public void setName(String name) {
         this.name = name;
     }
+
 }
